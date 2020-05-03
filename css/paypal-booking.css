@@ -1,0 +1,96 @@
+body{
+  background: #b8b6b6;
+  width: 100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.title{
+  padding-left: 5%;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  font-family: verdana;
+  font-weight: bold;
+}
+.name-of-title{
+  color: #0a0a24!important;
+}
+.options{
+  color: rgb(227, 227, 227);
+  font-size: 80%;
+}
+.steps{
+  padding: 20px;
+  margin-bottom: 5px;
+  font-family: arial;
+  background: #fff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+@media screen and (max-width: 450px)
+and (min-width: 0px){
+  .steps{
+    border-radius: 1px;
+  }
+}
+label{
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+}
+label i{
+  color: red;
+}
+label input{
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: thin;
+}
+.special-request-txt{
+  width: 90%;
+}
+.paypal-logo img{
+  width: 90%;
+}
+.button-box{
+}
+.button-box button{
+  margin-left: 5%;
+  padding: 5px;
+  width: 90%;
+  background: #0a0a24;
+  color: #fff;
+  border-color: #0a0a24;
+  cursor: pointer;
+}
+.confirmation-a{
+  background: rgb(45, 45, 227);
+  display: block;
+  padding: 5px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.confirmation-a i{
+  display: none;
+}
+.cancellation-policy{
+  padding: 5px;
+}
+.no-blank{
+  color: red;
+  text-align: center;
+  font-size: 80%;
+}

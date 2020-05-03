@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.current-date{
+  font-size: 70%;
+}
+.nb-inline{
+  display: inline-block;
+}
+.nb-btn{
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+.form-payment{
+  border-top: 1px solid grey;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  font-family: verdana;
+  padding: 10px 0;
+}
+#click-on-a-room{
+  font-weight: bold;
+  padding: 10px;
+}
+.room-details-section, .room-slider{
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.box{
+  width: 500px;
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+@media screen and (max-width: 400px) and (min-width: 0px){
+  .box{
+    width: 350px;
+  }
+}
+.box img{
+  width: 100%;
+  border-radius: 5px;
+  box-shadow:4px 4px 12px grey;
+  height: 322px;
+}
+.correct{
+  color: #00ad0b;
+  position: absolute;
+  top: 14%;
+  left: 32%;
+  font-size: 181px!important;
+}
+@media screen and (max-width: 400px) and (min-width: 0px) {
+  .correct{
+    font-size: 120px!important;
+  }
+}
+.room-name{
+  position: absolute;
+  top: 70%;
+  font-family: verdana;
+  background: black;
+  color: #fff;
+  padding: 5px 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+
+.margin-normal{
+  margin-left: 5%;
+}
+.margin-s-normal{
+  margin-left: 7%;
+}
+.client-info-section{
+  position: relative;
+  background: #000329;
+  color: snow;
+  padding: 10px 2%;
+}
+.client-info-section .box-2{
+  position: relative;
+  width: 49%;
+  background: #fff;
+  overflow: hidden;
+  display: inline-block;
+  height: 400px;
+  color: #000329;
+  padding: 5% 0;
+  border-radius: 5px;
+}
+@media screen and (max-width: 734px) and (min-width: 0px){
+  .client-info-section .box-2{
+    width: 49%;
+  }
+  #first-box-2{
+    position: relative;
+  }
+}
+.box-title{
+  z-index: 10;
+  position: relative;
+  font-weight: bolder;
+  padding: 2% 5%;
+  display: block;
+  text-shadow: 4px 4px 50px black;
+  margin-top: 3%;
+}
+@media screen and (max-width:582px) and (min-width: 0px)
+{
+  .client-info-section .box-2{
+    width: 100%;
+    margin: auto!important;
+    display: block;
+    margin-top: 5px!important;
+  }
+  #payment-method img{
+    height: 50%!important;
+  }
+  .payment-box{
+    border-radius: 5px;
+    width: 79%!important;
+  }
+}
+ .title{
+  margin-left: 8px;
+}
+label{
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group{
+  margin-left: 5%;
+  padding: 2%;
+}
+.form-group select{
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+  padding: 5px 0;
+  box-shadow:4px 4px 12px grey;
+  cursor: pointer;
+}
+textarea{
+  width: 90%;
+  padding: 2%;
+  font-size: 150%;
+}
+input:focus{
+  outline: none;
+}
+.form-group input[type=text], .form-group input[type=email]{
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 65%;
+}
+.form-group input[type=text]:focus{
+  width: 80%;
+  transition: 0.5;
+}
+.form-group input[type=tel]{
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.form-group label i{
+  color: red;
+}
+.error{
+  display: block;
+  font-size: 10px;
+  color: red;
+  font-style: italic;
+  margin-left: 3%;
+}
+#payment-method{
+  width: 100%;
+  background: #fff;
+}
+#payment-method .box-title{
+  color: #000;
+}
+#payment-method img{
+  display: block;
+  width: 95%;
+  position: absolute;
+  top: 12%;
+  bottom: 0;
+  height: 79%;
+  left: 2%;
+  right: 5%;
+  box-shadow:4px 4px 12px grey;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* WARNING:PAYMENT AMOUNT */
+.payment-box{
+  background: rgba(255,255,255,0.8);
+  position: absolute;
+  right: 14px;
+  width: 40%;
+  padding: 5% 5%;
+  height: 55%;
+  color: #242424;
+  margin-top: 7px;
+  box-shadow:4px 4px 12px grey;
+  border-radius: 20px;
+}
+.payment-title{
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+.amount-details-section{
+  height: 218px;
+  background: black;
+  position: relative;
+}
+@media screen and(max-width:) {
+
+}
+.tint{
+  display: block;
+  background: rgba(0,0,0,0.8);
+  height: 100%;
+}
+.amount-txt{
+  font-size: 30px;
+  color: #02cc16;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding: 2px 5%;
+  background: #fff;
+}
+
+.confirm-btn{
+  background: #1a73e8;
+  width: 65%;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.submit-btn{
+  background: #00bd3c;
+  border-color: transparent;
+}
